@@ -58,6 +58,5 @@ public class Restgame {
     } else {
         return ResponseEntity.ok("Check the question_id parameter");
     }
-    System.out.println("tere")
    }
   }
