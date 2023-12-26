@@ -23,7 +23,7 @@ public class Restgame {
     }
 
     @GetMapping ("/questions/{question_id}")
-    public ResponseEntity<Questions>getQuestion(@PathVariable int question_id) {  //Katsoo, että meneehän kysymysten määrä oikein
+    public ResponseEntity<Questions>getQuestion(@PathVariable int question_id) {  
     if (question_id >= 1 && question_id <= questions.size()) {
 
         int index = question_id - 1;
